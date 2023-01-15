@@ -1,0 +1,412 @@
+* {
+	margin: 0 auto;
+	font-family: "Work Sans", sans-serif;
+}
+/* --------------
+header 
+--------------*/
+.header {
+	background: #ff900e1a;
+}
+.header_content {
+	padding-top: 50px;
+	max-width: 1440px;
+}
+h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #727272;
+}
+.header h2,
+nav {
+	margin: 0;
+}
+.top_bar {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24px;
+	align-items: center;
+	padding-bottom: 102px;
+}
+nav a {
+	margin: 0;
+	text-decoration: none;
+	color: #424242;
+	font-size: 18px;
+	padding-left: 25px;
+}
+.header h1 {
+	font-size: 64px;
+	font-weight: 700;
+}
+.header_main {
+	text-align: center;
+	max-width: 862px;
+}
+.header_main p,
+.header_content img {
+	padding: 32px 0px;
+}
+.btn-primary {
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	border: 0;
+	padding: 18px 35px;
+	height: 64px;
+	border-radius: 8px;
+	background: #ff900e;
+}
+/* --------------
+Main Section 1
+--------------*/
+main {
+	background-color: #fdfdfd;
+}
+.main_content {
+	max-width: 1440px;
+}
+.quick_list {
+	padding-top: 85px;
+	padding-bottom: 130px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 75px;
+}
+.quick_list_img {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+}
+.team_img {
+	border-radius: 8px;
+}
+.quick_list_content h2 {
+	padding-top: 202px;
+	padding-right: 147px;
+}
+.quick_list_content p {
+	padding: 24px 137px 32px 0px;
+}
+/* --------------
+Main Section 2
+--------------*/
+.features {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 54px;
+}
+.features_content {
+	padding-top: 39px;
+	padding-right: 92px;
+}
+.features_content_topbar {
+	display: flex;
+	gap: 21px;
+	padding-right: 92px;
+}
+.square {
+	background-color: #ff900e;
+	width: 5px;
+	height: 106px;
+}
+.feature_top_para {
+	padding-top: 24px;
+	padding-bottom: 30px;
+}
+.feature {
+	height: 111px;
+	padding: 30px;
+	padding-right: 42px;
+	border-radius: 8px;
+	background: #ffffff;
+	box-shadow: 10px 10px 20px #a1a1a1;
+	margin-bottom: 20px;
+}
+.feature_title {
+	font-weight: 600;
+	font-size: 20px;
+	color: #131313;
+	padding-bottom: 10px;
+}
+.feature_details {
+	font-weight: 400;
+	font-size: 16px;
+}
+.features button h2 {
+	font-size: 65px;
+}
+.features button {
+	position: relative;
+	right: 92px;
+	bottom: 130px;
+	width: 342px;
+	height: 200px;
+	padding: 45px 42px;
+	font-size: 25px;
+}
+/* --------------
+Main Section 3 + 4
+--------------*/
+.some_facts {
+	margin-bottom: 50px;
+}
+.some_facts_para,
+.team_para {
+	padding-top: 24px;
+	padding-bottom: 100px;
+	width: 542px;
+	margin-left: 0px;
+}
+.facts,
+.team_members {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: center;
+}
+.fact {
+	padding-top: 46px;
+	width: 241.83px;
+	height: 195.83px;
+	border: 1px solid #ff900e;
+	border-radius: 8px;
+	text-align: center;
+}
+.fact h2 {
+	font-weight: 600;
+	color: #424242;
+}
+.fact p,
+.team_member p {
+	font-size: 20px;
+	font-weight: 600;
+}
+/* --------------
+Main Section 4 Extra section 1
+--------------*/
+.team_title {
+	width: 542px;
+	text-align: center;
+}
+.team_para {
+	padding-bottom: 20px;
+	margin: 0px auto;
+	text-align: center;
+}
+.team_member {
+	padding-top: 15px;
+	width: 150px;
+	height: 135px;
+	border: 1px solid #ff900e;
+	border-radius: 8px;
+	text-align: center;
+}
+/* --------------
+Main Section 5
+--------------*/
+.sponsors h2 {
+	padding-top: 108px;
+	padding-bottom: 24px;
+}
+.sponsors_top {
+	width: 542px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.sponsors_logo {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	filter: grayscale(100%);
+}
+/* --------------
+footer copyright
+--------------*/
+.copyright {
+	margin-top: 130px;
+	width: 1440px;
+	height: 100px;
+	background: #fff4e7;
+	border-radius: 8px;
+}
+.copyright p {
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+}
+
+/* --------------
+footer contact us Extra section 2
+--------------*/
+#footer {
+	margin-top: 10px;
+	height: 577px;
+	width: 100%;
+	background-color: #ff900e1a;
+}
+
+#footer-items {
+	max-width: 1140px;
+	display: flex;
+	padding-top: 130px;
+	justify-content: space-between;
+}
+#footer-items p {
+	padding-top: 18px;
+	padding-right: 331px;
+}
+#footer-items a {
+	text-decoration: none;
+}
+#footer-items img {
+	padding-top: 32px;
+	padding-right: 17px;
+}
+#footer-items input {
+	width: 325px;
+	height: 64px;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	background-color: #151414;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding-left: 21px;
+}
+
+/* --------------
+Mobile CSS
+--------------*/
+
+@media only screen and (max-width: 576px) {
+	* {
+		text-align: center;
+	}
+	p {
+		margin: 0px 10px;
+	}
+	/* --------------
+	header 
+	--------------*/
+	.top_bar {
+		flex-direction: column;
+		padding-bottom: 25px;
+	}
+	nav a {
+		padding: 0px;
+	}
+	.header_content img {
+		width: 100%;
+	}
+
+	/* --------------
+	Main Section 1
+	--------------*/
+	.quick_list {
+		grid-template-columns: 1fr;
+		gap: 5px;
+	}
+	.quick_list_img {
+		grid-template-columns: 1fr;
+	}
+	.quick_list_content h2,
+	.quick_list_content p {
+		padding: 12px 0px;
+	}
+
+	/* --------------
+	Main Section 2
+	--------------*/
+	.features {
+		grid-template-columns: 1fr;
+		gap: 0px;
+	}
+	.feature {
+		padding: 30px 0px;
+	}
+	.features_content_topbar {
+		gap: 21px;
+		padding-right: 0px;
+	}
+	.features_content {
+		padding: 0px;
+	}
+	.features img {
+		width: 100%;
+	}
+	.features button {
+		position: static;
+		width: 98%;
+		margin-bottom: 100px;
+	}
+
+	/* --------------
+	Main Section 3
+	--------------*/
+	.some_facts_para {
+		align-items: center;
+		width: 98%;
+		padding-bottom: 20px;
+	}
+	.facts {
+		grid-template-columns: 1fr 1fr;
+		gap: 5px;
+	}
+	.fact {
+		padding-top: 10px;
+		width: 160px;
+		height: 150px;
+	}
+
+	/* --------------
+	Main Section 4 Extra section 1
+	--------------*/
+	.team_title,
+	.team_para {
+		width: 98%;
+	}
+	.team_members {
+		grid-template-columns: 1fr 1fr;
+		gap: 5px;
+	}
+
+	/* --------------
+	Main Section 5
+	--------------*/
+	.sponsors h2 {
+		padding-top: 80px;
+	}
+	.sponsors_top {
+		width: 100%;
+	}
+	.sponsors_logo {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5px;
+	}
+
+	/* --------------
+	footer copyright
+	--------------*/
+	.copyright {
+		margin-top: 30px;
+		width: 100%;
+		height: 50px;
+	}
+	.copyright p {
+		font-size: 10px;
+		line-height: 50px;
+	}
+
+	/* --------------
+	footer contact us Extra section 2
+	--------------*/
+	#footer-items {
+		flex-direction: column;
+		padding-top: 30px;
+	}
+	#footer-items p {
+		padding-right: 0px;
+	}
+}
