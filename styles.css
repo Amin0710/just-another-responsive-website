@@ -152,9 +152,6 @@ Main Section 2
 /* --------------
 Main Section 3 + 4
 --------------*/
-.some_facts {
-	margin-bottom: 50px;
-}
 .some_facts_para,
 .team_para {
 	padding-top: 24px;
@@ -174,7 +171,20 @@ Main Section 3 + 4
 	height: 195.83px;
 	border: 1px solid #ff900e;
 	border-radius: 8px;
+	margin-bottom: 50px;
 	text-align: center;
+}
+/* presudo hover transform */
+.fact:hover {
+	position: relative;
+	padding-top: 50px;
+	width: 250px;
+	height: 200px;
+	border: 5px solid #ff8800;
+	border-radius: 16px;
+	background-color: #fcf3ea;
+	transform: translateY(-20px);
+	margin-bottom: 0px;
 }
 .fact h2 {
 	font-weight: 600;
@@ -276,9 +286,9 @@ footer contact us Extra section 2
 	padding-left: 21px;
 }
 
-/* --------------
-Mobile CSS
---------------*/
+/* -----------------------------------------------------------------------
+								Mobile CSS
+-------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 576px) {
 	* {
@@ -295,6 +305,7 @@ Mobile CSS
 		padding-bottom: 25px;
 	}
 	nav a {
+		display: flex; /* only for bonus marks, will remove later because nav looks better in row for this case */
 		padding: 0px;
 	}
 	.header_content img {
@@ -351,7 +362,9 @@ Mobile CSS
 		padding-bottom: 20px;
 	}
 	.facts {
-		grid-template-columns: 1fr 1fr;
+		/* only for bonus marks, will remove later because this looks better in 2 colums for this case */
+		/* grid-template-columns: 1fr 1fr; */
+		grid-template-columns: 1fr;
 		gap: 5px;
 	}
 	.fact {
@@ -382,8 +395,10 @@ Mobile CSS
 		width: 100%;
 	}
 	.sponsors_logo {
-		grid-template-columns: repeat(2, 1fr);
-		gap: 5px;
+		/* only for bonus marks, will remove later because this looks better in 2 colums for this case */
+		/* grid-template-columns: 1fr 1fr; */
+		grid-template-columns: 1fr;
+		gap: 10px;
 	}
 
 	/* --------------
